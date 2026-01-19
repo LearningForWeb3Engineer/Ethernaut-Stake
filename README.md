@@ -1,4 +1,4 @@
-# Stake Contract - Accounting Vulnerability
+# Ethernaut Level 31 - Stake
 
 ## Vulnerability
 
@@ -185,4 +185,5 @@ await exploit.attack({ value: ethers.utils.parseEther("0.002") });
 * **Asset Type Confusion**: Treating different asset types (ETH vs WETH) as equivalent
 * **Withdrawal Vulnerability**: Always paying out in the more valuable asset (ETH)
 * **Double Counting**: Same balance used for two different asset types
+
 
